@@ -53,10 +53,22 @@
       </div>
       <div class="question">
         <label>解答</label>
-        <input type="text">
-        <input type="submit">
-        <p></p>
+        <input id="answer" type="text">
+        <input type="button" value="解答" onclick="onButtonClick();" />
+        <p id="ox"></p>
       </div>
+
+      <script>
+        function onButtonClick() {
+          var val = answer.value;
+          if (val == "わらしべ") {
+              ox.innerHTML = "正解です!";
+          } else {
+              ox.innerHTML = "残念、不正解です...";
+          }
+        }
+      </script>
+      
       <div class="answer"></div>
     </main>
 
