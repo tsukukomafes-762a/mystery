@@ -155,6 +155,10 @@ input[type=checkbox] {
   }
 }
 
-.hintshow {
+.hintshow, .answershow {
   border-bottom-style: solid;
+}
+
+.hint, .answer {
+  display: none;
 }
