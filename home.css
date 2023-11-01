@@ -110,7 +110,7 @@ input[type=checkbox] {
     transition: 0.3s ease;
   } 
 
-  input[type=checkbox]:checked ~ .menu {
+  menucheck:checked ~ .menu {
     transition: 1s ease;
     display: block;
     z-index: 20;
@@ -144,13 +144,17 @@ input[type=checkbox] {
   border-bottom-style: solid;
 }
 
-.n-title div {
+.m-title div {
   text-align: right;
   padding: 4px;
 }
 
 @media (max-width: 465px) {
-  .n-title h1 {
+  .m-title h1 {
     font-size: 6.9vw;
   }
+}
+
+.hintshow {
+  border-bottom-style: solid;
 }
