@@ -53,14 +53,14 @@
       </div>
       <div class="question">
         <label>解答</label>
-        <input id="answer" type="text">
+        <input id="nyuryoku" type="text">
         <input type="button" value="解答" onclick="onButtonClick();" />
         <p id="ox"></p>
       </div>
 
       <script>
         function onButtonClick() {
-          var val = answer.value;
+          var val = nyuryoku.value;
           if (val == "わらしべ") {
               ox.innerHTML = "正解です!";
           } else {
@@ -68,8 +68,22 @@
           }
         }
       </script>
+
+      <div class="hintshow">
+        <h3><i class="fa-solid fa-chevron-down"></i>ヒントを見る</h3>
+      </div>
+
+      <div class="hint">
+        <p>あらららっら</p>
+      </div>
       
-      <div class="answer"></div>
+      <div class="answershow">
+        <h3><i class="fa-solid fa-chevron-down"></i>解答・解説を見る</h3>
+      </div>
+
+      <div class="answer">
+        <p>ｆでぃおｈどぃうわああああああ</p>
+      </div>
     </main>
 
     <footer id="footing">
