@@ -155,6 +155,10 @@ input[type=checkbox] {
   }
 }
 
+.question img {
+  max-width: 750px;
+}
+
 .hintshow, .answershow {
   border-bottom-style: solid;
 }
